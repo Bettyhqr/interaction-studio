@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./css/index2.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Waves</title>
+</head>
+
+<body>
+    <div class="OceanWave">
+        Ocean Waves
+    </div>
+    <div class="affectingFactor">
+        affecting factors
+    </div>
+    <img class="arrow" src="./img/arrow2.png" alt="arrow">
+    <div class="top-text">
+        explore how different factors 
+    </div>
+    <div class="top-text2">
+        affect the formation and change of ocean waves
+    </div>
+    <div class="WindSpeed">
+        Wind speed
+    </div>
+    <div class="WindSpeed-text" style="display: none;">
+        <span>
+            Stronger winds transfer more energy to the ocean surface, creating larger and more powerful waves. The longer and more consistently the wind blows over the water, the bigger the waves grow.
+        </span>
+    </div>
+    <div class="WaterDepth">
+        Water depth
+    </div>
+    <div class="WaterDepth-text" style="display: none;">
+        <span>
+            In deep water, waves with longer wavelengths move more swiftly, preserving their energy. As they reach shallower areas, their speed decreases, their height grows, and they may break as a result of friction with the seabed.
+        </span>
+    </div>
+    <div class="SeafloorTopography">
+        Seafloor topography
+    </div>
+    <div class="SeafloorTopography-text" style="display: none;">
+        <span>
+            Underwater features like ridges, trenches, and continental shelves influence wave behavior. Sudden changes in depth can cause waves to refract, break, or amplify, leading to phenomena like rogue waves, tsunamis, or coastal erosion.
+        </span>
+    </div>
+    <div class="bottom-text">
+        explore how different factors 
+    </div>
+    <div class="bottom-text2">
+        affect the formation and change of ocean waves
+    </div>
+</body>
+<script>
+    const windSpeed = document.querySelector('.WindSpeed');
+    const windSpeedText = document.querySelector('.WindSpeed-text');
+    windSpeed.addEventListener('click', () => {
+        if (windSpeedText.style.display === 'none') {
+            windSpeedText.style.display = 'flex';
+        } else {
+            windSpeedText.style.display = 'none';
+        }
+    });
+    const waterDepth = document.querySelector('.WaterDepth');
+    const waterDepthText = document.querySelector('.WaterDepth-text');
+    waterDepth.addEventListener('click', () => {
+        if (waterDepthText.style.display === 'none') {
+            waterDepthText.style.display = 'flex';
+        } else {
+            waterDepthText.style.display = 'none';
+        }
+    });
+    const seafloorTopography = document.querySelector('.SeafloorTopography');
+    const seafloorTopographyText = document.querySelector('.SeafloorTopography-text');
+    seafloorTopography.addEventListener('click', () => {
+        if (seafloorTopographyText.style.display === 'none') {
+            seafloorTopographyText.style.display = 'flex';
+        } else {
+            seafloorTopographyText.style.display = 'none';
+        }
+    });
+    
+</script>
+
+</html>

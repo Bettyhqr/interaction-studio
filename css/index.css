@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Homemade Apple';
+    src: url('../fonts/HomemadeApple.ttf');
+}
+
+@font-face {
+    font-family: 'Lora-Italic';
+    src: url('../fonts/Lora-Italic.ttf');
+}
+
+html {
+    width: 4536px;
+    height: 982px;
+    background-image: url(../img/bg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.OceanWave {
+    /* Ocean Waves */
+    position: absolute;
+    width: 342px;
+    height: 75px;
+    left: 54px;
+    top: 333px;
+
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 104px;
+
+    color: #1E1E1E;
+}
+
+.affectingFactor {
+    /* affecting factors */
+    position: absolute;
+    width: 147px;
+    height: 33px;
+    left: 396px;
+    top: 348px;
+    font-family: 'Lora-Italic';
+    font-style: italic;
+    font-weight: 0;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1E1E1E;
+}
+
+.arrow {
+    /* → */
+    position: absolute;
+    width: 30px;
+    height: 13px;
+    left: 54px;
+    top: 419px;
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1E1E1E;
+}
+
+.top-text {
+    /* explore how different factors */
+    position: absolute;
+    width: 467px;
+    height: 75px;
+    left: 60px;
+    top: 51px;
+
+    font-family: 'Lora-Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.35em;
+
+    color: #1E1E1E;
+
+
+}
+
+.top-text2 {
+    /* affect the formation and change of ocean waves */
+    position: absolute;
+    width: 1354px;
+    height: 75px;
+    left: 540px;
+    top: 51px;
+
+    font-family: 'Lora-Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1em;
+
+    color: #1E1E1E;
+}
+
+.WindSpeed {
+    /* Wind speed */
+
+    position: absolute;
+    width: 147px;
+    height: 33px;
+    left: 1402.29px;
+    top: 354px;
+
+    font-family: 'Homemade Apple';
+    font-style: italic;
+    font-weight: 0;
+    font-size: 24px;
+    line-height: 38px;
+
+    color: #1E1E1E;
+
+    transform: rotate(5.73deg);
+    cursor: pointer;
+}
+
+.WindSpeed-text {
+    /* Rectangle 5 */
+    position: absolute;
+    width: 349px;
+    height: 225px;
+    left: 1545px;
+    top: 256px;
+    background: rgba(46, 167, 224, 0.3);
+    border-radius: 60px;
+
+    font-family: 'Lora-Italic';
+    font-style: italic;
+    font-weight: 0;
+    font-size: 16px;
+    line-height: 25px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.WaterDepth {
+    /* Water depth */
+
+    position: absolute;
+    width: 180px;
+    height: 33px;
+    left: 2567px;
+    top: 618.77px;
+
+    font-family: 'Homemade Apple';
+    font-style: italic;
+    font-weight: 0;
+    font-size: 24px;
+    line-height: 38px;
+
+    color: #000000;
+
+    transform: rotate(-8.52deg);
+    cursor: pointer;
+
+}
+
+.WaterDepth-text {
+    /* Rectangle 6 */
+
+    position: absolute;
+    width: 349px;
+    height: 225px;
+    left: 2717px;
+    top: 510px;
+
+    background: rgba(46, 167, 224, 0.3);
+    border-radius: 60px;
+    font-family: 'Lora-Italic';
+    font-style: italic;
+    font-weight: 0;
+    font-size: 16px;
+    line-height: 25px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.SeafloorTopography {
+    /* Seafloor topography */
+
+    position: absolute;
+    width: 294.41px;
+    height: 33px;
+    left: 3861px;
+    top: 564.2px;
+
+    font-family: 'Homemade Apple';
+    font-style: italic;
+    font-weight: 0;
+    font-size: 24px;
+    line-height: 38px;
+
+    color: #1E1E1E;
+
+    transform: rotate(-8.83deg);
+    cursor: pointer;
+}
+
+.SeafloorTopography-text {
+    /* Rectangle 6 */
+
+    position: absolute;
+    width: 349px;
+    height: 225px;
+    left: 4091px;
+    top: 448px;
+
+    background: rgba(46, 167, 224, 0.3);
+    border-radius: 60px;
+
+    font-family: 'Lora-Italic';
+    font-style: italic;
+    font-weight: 0;
+    font-size: 16px;
+    line-height: 25px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom-text {
+    /* explore how different factors */
+
+    position: absolute;
+    width: 1354px;
+    height: 75px;
+    left: 2610px;
+    top: 907px;
+
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1em;
+
+    color: #1E1E1E;
+
+
+}
+
+.bottom-text2 {
+    /* affect the formation and change of ocean waves */
+
+    position: absolute;
+    width: 1054px;
+    height: 75px;
+    left: 3461px;
+    top: 908px;
+
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.35em;
+
+    color: #1E1E1E;
+
+
+
+}
