@@ -79,14 +79,14 @@ html {
     position: absolute;
     width: 467px;
     height: 75px;
-    left: 60px;
-    top: 51px;
+    left: 54px;
+    top: 46px;
 
     font-family: 'Lora-Italic';
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: 0.35em;
     color: rgba(0, 41, 70, 0.6);
 }
@@ -95,14 +95,14 @@ html {
     position: absolute;
     width: 1354px;
     height: 75px;
-    left: 540px;
-    top: 51px;
+    left: 439px;
+    top: 46px;
 
     font-family: 'Lora-Italic';
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: 1em;
 
     color: rgba(0, 41, 70, 0.6);
@@ -246,29 +246,29 @@ html {
     position: absolute;
     width: 1354px;
     height: 75px;
-    left: 2610px;
+    left: 3037px;
     top: 907px;
 
     font-family: 'Lora';
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: 1em;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .bottom-text2 {
     position: absolute;
-    width: 1054px;
+    width: 1354px;
     height: 75px;
-    left: 3461px;
-    top: 908px;
+    left: 3722px;
+    top: 907px;
     font-family: 'Lora';
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: 0.35em;
     color: rgba(255, 255, 255, 0.6);
 }
