@@ -14,6 +14,7 @@ html {
     background-image: url(../img/bg1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+ 
 }
 
 .OceanWave {
@@ -77,7 +78,7 @@ html {
 
 .top-text {
     position: absolute;
-    width: 467px;
+    width: 523px;
     height: 75px;
     left: 54px;
     top: 46px;
@@ -93,7 +94,7 @@ html {
 
 .top-text2 {
     position: absolute;
-    width: 1354px;
+    width: 1159px;
     height: 75px;
     left: 439px;
     top: 46px;
@@ -244,7 +245,7 @@ html {
 
 .bottom-text {
     position: absolute;
-    width: 1354px;
+    width: 836px;
     height: 75px;
     left: 3037px;
     top: 907px;
@@ -260,7 +261,7 @@ html {
 
 .bottom-text2 {
     position: absolute;
-    width: 1354px;
+    width: 664px;
     height: 75px;
     left: 3722px;
     top: 907px;
